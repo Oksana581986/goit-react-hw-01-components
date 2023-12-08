@@ -1,0 +1,43 @@
+
+.profile {
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 35px;
+  }
+  
+  .name {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+  
+  .avatar {
+    border-radius: 100%;
+  }
+  
+  .stats {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+  }
+  
+  .stats-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .stats-label {
+   margin-right: 20px;
+  }
+  
+  .stats-quantity {
+    font-weight: 700;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+

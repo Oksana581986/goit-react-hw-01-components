@@ -1,0 +1,37 @@
+
+.statistics {
+    padding-top: 30px;
+  }
+  
+  .stat-title {
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .stat-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .item{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 70px;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  
+  .stat-label{
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 10px;
+  
+  }
+  
+  .stat-percentage{
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+  }
