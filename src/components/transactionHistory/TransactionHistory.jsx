@@ -1,16 +1,17 @@
 import React from 'react'
-import './TransactionHistory.css';
+import css from './TransactionHistory.module.css';
+import cn from 'classnames';
 
 const TransactionHistory = ({ items }) => {
     const tableStyle = {
-        width: '90%',
+        width: '85%',
         height: '200',
     };
 
     return (
-      <table style={tableStyle} className="transaction-history">
+      <table style={tableStyle} className={cn(css.history)}>
         <thead>
-          <tr className="transaction-name">
+          <tr className={css.name}>
             <th>Type</th>
             <th>Amount</th>
             <th>Currency</th>

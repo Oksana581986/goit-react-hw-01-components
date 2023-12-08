@@ -4,7 +4,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-top: 35px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   
   .name {
@@ -17,25 +18,31 @@
     border-radius: 100%;
   }
   
+.tag {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
   .stats {
     display: flex;
     flex-direction: row;
     list-style: none;
     justify-content: center;
+    padding-top: 30px;
   }
   
-  .stats-item {
+  .item {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
   }
 
-  .stats-label {
+  .label {
    margin-right: 20px;
   }
   
-  .stats-quantity {
+  .quantity {
     font-weight: 700;
     margin-right: 20px;
     margin-top: 10px;
